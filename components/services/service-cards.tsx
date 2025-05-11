@@ -81,7 +81,7 @@ export default function ServiceCards() {
             </div>
             <div className="relative min-h-[300px] lg:min-h-0">
               <Image
-                src="/ai.jpp"
+                src="/ai.jpg"
                 alt="AI Health Assistant"
                 fill
                 className="object-cover"
