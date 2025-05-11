@@ -6,7 +6,7 @@ import StatsSection from "@/components/stats-section"
 import DoctorsSection from "@/components/doctors/doctors-section"
 import TestimonialsSection from "@/components/testimonials-section"
 import CtaSection from "@/components/cta-section"
-import ContactSection from "@/components/contact/contact-section"
+import ContactSection from "@/components/contact-section"
 import Footer from "@/components/layouts/footer"
 
 export default function Home() {

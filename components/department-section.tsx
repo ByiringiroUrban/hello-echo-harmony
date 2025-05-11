@@ -3,12 +3,12 @@ import Image from "next/image"
 
 export default function DepartmentSection() {
   const departments = [
-    { name: "Cardiology", icon: "❤️", image: "/placeholder.svg?height=100&width=100&text=Cardiology" },
-    { name: "Ophthalmology", icon: "👁️", image: "/placeholder.svg?height=100&width=100&text=Ophthalmology" },
-    { name: "Urology", icon: "🔬", image: "/placeholder.svg?height=100&width=100&text=Urology" },
-    { name: "Antenatal", icon: "👶", image: "/placeholder.svg?height=100&width=100&text=Antenatal" },
-    { name: "Neurology", icon: "🧠", image: "/placeholder.svg?height=100&width=100&text=Neurology" },
-    { name: "Orthopedics", icon: "🦴", image: "/placeholder.svg?height=100&width=100&text=Orthopedics" },
+    { name: "Cardiology", icon: "❤️", image: "/cardiology.jpg" },
+    { name: "Ophthalmology", icon: "👁️", image: "/ophtamology.jpg" },
+    { name: "Dentistry", icon: "🔬", image: "/dentistry.png" },
+    { name: "Antenatal", icon: "👶", image: "/antenatal.jpg" },
+    { name: "Neurology", icon: "🧠", image: "/neurology.png" },
+    { name: "Orthopedics", icon: "🦴", image: "/orthopedic.jpg" },
   ]
 
   return (

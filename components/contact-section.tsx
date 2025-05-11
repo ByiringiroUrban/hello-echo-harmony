@@ -45,7 +45,7 @@ export default function ContactSection() {
                 <label htmlFor="message" className="text-sm font-medium text-gray-700">
                   Message
                 </label>
-                <Textarea id="message" placeholder="Your message" rows={11} />
+                <Textarea id="message" placeholder="Your message" rows={20}  className="md:min-h-60"/>
               </div>
 
               <Button className="w-full bg-green-600 hover:bg-green-700">Send Message</Button>

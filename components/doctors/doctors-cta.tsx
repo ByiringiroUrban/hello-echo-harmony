@@ -15,7 +15,7 @@ export default function DoctorsCta() {
             <Button className="bg-white text-blue-900 hover:bg-white/90 h-12 px-6 text-base">
               <Calendar className="mr-2 h-5 w-5" /> Book an Appointment
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10 h-12 px-6 text-base">
+            <Button variant="outline" className="border-white text-green-700 hover:bg-white/90 h-12 px-6 text-base">
               <Video className="mr-2 h-5 w-5" /> Virtual Consultation
             </Button>
           </div>

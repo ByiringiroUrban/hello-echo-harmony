@@ -30,20 +30,32 @@ export default function Hero() {
               </Button>
             </div>
 
-            <div className="flex items-center space-x-6 pt-4">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="w-10 h-10 rounded-full bg-gray-200 border-2 border-white flex items-center justify-center overflow-hidden"
-                  >
-                    <Image src={`/placeholder.svg?height=40&width=40&text=${i}`} alt="User" width={40} height={40} />
-                  </div>
-                ))}
+
+            {/* <div className="flex items-center space-x-4 mt-6">
+              <div className="bg-blue-100 text-blue-800 rounded-full p-2">
+                <Clock className="h-6 w-6" />
               </div>
               <div>
-                <div className="font-bold text-gray-900">1,200+ Users</div>
-                <div className="text-sm text-gray-600">Trust our services</div>
+                <h3 className="text-lg font-bold">24/7 Availability</h3>
+                <p className="text-gray-600">Always here for you, day or night</p>
+              </div>
+            </div> */}
+
+            {/* Avatars */}
+            <div className="flex items-center space-x-6 pt-4">
+              <div className="flex -space-x-2">
+              {["/avatar1.png", "/avatar2.png", "/avatar3.png", "/avatar4.png"].map((src, index) => (
+                <div
+                key={index}
+                className="w-10 h-10 rounded-full bg-gray-200 border-2 border-white flex items-center justify-center overflow-hidden"
+                >
+                <Image src={src} alt={`User ${index + 1}`} width={40} height={40} />
+                </div>
+              ))}
+              </div>
+              <div>
+              <div className="font-bold text-gray-900">1,200+ Users</div>
+              <div className="text-sm text-gray-600">Trust our services</div>
               </div>
             </div>
           </div>
@@ -57,7 +69,7 @@ export default function Hero() {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
               <div className="aspect-[4/3] relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&text=Doctor+with+Patient"
+                  src="/hero.png"
                   alt="Doctor consulting with patient"
                   fill
                   className="object-cover"

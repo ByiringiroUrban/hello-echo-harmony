@@ -19,7 +19,7 @@ export default function ServiceCards() {
             iconBg="bg-blue-600"
             title="Teleconsultation"
             description="Connect with specialists from various hospitals across Rwanda"
-            image="/placeholder.svg?height=200&width=300&text=Teleconsultation"
+            image="/5.png"
             href="/teleconsultation"
           />
 
@@ -28,8 +28,8 @@ export default function ServiceCards() {
             iconBg="bg-green-600"
             title="Appointments"
             description="Book and manage medical appointments with ease"
-            image="/placeholder.svg?height=200&width=300&text=Appointments"
-            href="/appointments"
+            image="/4.png"
+            href="Appointments"
           />
 
           <ServiceCard
@@ -37,7 +37,7 @@ export default function ServiceCards() {
             iconBg="bg-red-600"
             title="Emergency"
             description="24/7 emergency assistance services when you need it most"
-            image="/placeholder.svg?height=200&width=300&text=Emergency"
+            image="/6.png"
             href="/emergency"
           />
 
@@ -46,7 +46,7 @@ export default function ServiceCards() {
             iconBg="bg-purple-600"
             title="Pharmacy"
             description="Order medications from local pharmacies with delivery options"
-            image="/placeholder.svg?height=200&width=300&text=Pharmacy"
+            image="/7.png"
             href="/pharmacy"
           />
         </div>
@@ -81,7 +81,7 @@ export default function ServiceCards() {
             </div>
             <div className="relative min-h-[300px] lg:min-h-0">
               <Image
-                src="/placeholder.svg?height=600&width=800&text=AI+Health+Assistant"
+                src="/ai.webp"
                 alt="AI Health Assistant"
                 fill
                 className="object-cover"

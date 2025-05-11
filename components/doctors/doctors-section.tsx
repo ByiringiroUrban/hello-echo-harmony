@@ -10,7 +10,7 @@ export default function DoctorsSection() {
       name: "Dr. Jean Mugabo",
       specialty: "Cardiologist",
       hospital: "Kigali University Hospital",
-      image: "/placeholder.svg?height=400&width=300&text=Dr.+Mugabo",
+      image: "/11.png",
       available: true,
     },
     {
@@ -18,23 +18,23 @@ export default function DoctorsSection() {
       name: "Dr. Marie Uwase",
       specialty: "Pediatrician",
       hospital: "Rwanda Children's Hospital",
-      image: "/placeholder.svg?height=400&width=300&text=Dr.+Uwase",
+      image: "/12.png",
       available: true,
     },
     {
       id: 3,
       name: "Dr. Eric Ndayishimiye",
       specialty: "Neurologist",
-      hospital: "Butaro Hospital",
-      image: "/placeholder.svg?height=400&width=300&text=Dr.+Ndayishimiye",
+      hospital: "CHUK",
+      image: "/13.png",
       available: false,
     },
     {
       id: 4,
-      name: "Dr. Claire Mutesi",
-      specialty: "Ophthalmologist",
-      hospital: "CHUK Eye Center",
-      image: "/placeholder.svg?height=400&width=300&text=Dr.+Mutesi",
+      name: "Claire Mutesi",
+      specialty: "Dentist",
+      hospital: "Gakwerere's Dental Clinic",
+      image: "/14.png",
       available: true,
     },
   ]
@@ -44,7 +44,7 @@ export default function DoctorsSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">Meet Our Specialists</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Meet Our Specialists </h2>
             <p className="text-gray-600 mt-2 max-w-2xl">
               Our network includes Rwanda&apos;s top medical professionals ready to provide you with exceptional care
             </p>

@@ -48,20 +48,21 @@ export default function CtaSection() {
             <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-green-500/20 rounded-full filter blur-3xl"></div>
 
             <div className="relative z-10">
-              <div className="relative h-[600px] w-[300px] mx-auto">
-                <div className="absolute inset-0 bg-black rounded-[40px] shadow-2xl overflow-hidden border-[8px] border-gray-800">
-                  <div className="absolute top-0 left-0 right-0 h-[30px] bg-black">
-                    <div className="absolute top-[10px] left-1/2 transform -translate-x-1/2 w-[100px] h-[10px] bg-gray-800 rounded-full"></div>
-                  </div>
-                  <div className="absolute top-[30px] bottom-0 left-0 right-0">
-                    <Image
-                      src="/placeholder.svg?height=600&width=300&text=App+Screenshot"
+              <div className="relative h-[36rem] w-[18rem] mx-auto">
+                 <Image
+                      src="/app.png"
                       alt="HEALTHLINE RWANDA App"
                       fill
                       className="object-cover"
                     />
+                {/* <div className="absolute inset-0 bg-black rounded-[40px] shadow-2xl overflow-hidden border-[8px] border-gray-800">
+                  <div className="absolute top-0 left-0 right-0 h-[30px] bg-black">
+                    <div className="absolute top-[10px] left-1/2 transform -translate-x-1/2 w-[100px] h-[10px] bg-gray-800 rounded-full"></div>
                   </div>
-                </div>
+                  <div className="absolute top-[30px] bottom-0 left-0 right-0">
+                   
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
