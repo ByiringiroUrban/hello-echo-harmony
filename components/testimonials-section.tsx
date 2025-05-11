@@ -11,7 +11,7 @@ export default function TestimonialsSection() {
       id: 1,
       name: "Claudine Niyonzima",
       role: "Mother of two",
-      image: "/placeholder.svg?height=100&width=100&text=CN",
+      image: "/t3.png",
       quote:
         "HEALTHLINE RWANDA has transformed how my family accesses healthcare. The teleconsultation feature saved us hours of travel when my son had a fever. The doctor was able to diagnose and prescribe medication that was delivered to our home within hours.",
       rating: 5,
@@ -20,7 +20,7 @@ export default function TestimonialsSection() {
       id: 2,
       name: "Emmanuel Habimana",
       role: "Business Owner",
-      image: "/placeholder.svg?height=100&width=100&text=EH",
+      image: "/t2.png",
       quote:
         "As someone with a busy schedule, being able to book appointments and consult with specialists without leaving my office has been invaluable. The platform is intuitive and the doctors are responsive and professional.",
       rating: 5,
@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
       id: 3,
       name: "Diane Mukasine",
       role: "Teacher",
-      image: "/placeholder.svg?height=100&width=100&text=DM",
+      image: "/t1.png",
       quote:
         "The AI health assistant has been my daily companion for managing my diabetes. It reminds me to take my medication, suggests healthy meal options, and alerts me when my readings are concerning. It's like having a personal health coach.",
       rating: 4,
