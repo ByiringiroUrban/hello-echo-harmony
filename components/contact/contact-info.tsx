@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock, AlertCircle } from "lucide-react"
+import { JSX } from "react";
 
 export default function ContactInfo() {
   return (
@@ -62,7 +63,7 @@ export default function ContactInfo() {
   )
 }
 
-function ContactCard({ icon, title, details, color, footer = null }) {
+function ContactCard({ icon, title, details, color, footer = null }: { icon: JSX.Element; title: string; details: string[]; color: string; footer?: string | null }) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden h-full">
       <div className={`${color} p-6 flex items-center`}>

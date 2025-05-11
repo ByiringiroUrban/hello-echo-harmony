@@ -5,6 +5,22 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Star, Calendar, Video, MapPin, Clock, Award, GraduationCap, Languages } from "lucide-react"
 
+interface Doctor {
+  id: number
+  name: string
+  specialty: string
+  hospital: string
+  image: string
+  rating: number
+  reviewCount: number
+  experience: string
+  education: string
+  languages: string[]
+  consultationFee: string
+  availableToday: boolean
+  nextAvailable: string
+}
+
 export default function DoctorsList() {
   const [viewMode, setViewMode] = useState("grid") // grid or list
 
@@ -201,7 +217,7 @@ export default function DoctorsList() {
   )
 }
 
-function DoctorGridCard({ doctor }) {
+function DoctorGridCard({ doctor }: { doctor: Doctor }) {
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 transition-all duration-300 hover:shadow-lg">
       <div className="relative">
@@ -254,7 +270,7 @@ function DoctorGridCard({ doctor }) {
   )
 }
 
-function DoctorListCard({ doctor }) {
+function DoctorListCard({ doctor }: { doctor: Doctor }) {
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 transition-all duration-300 hover:shadow-lg">
       <div className="p-6 flex flex-col md:flex-row">
