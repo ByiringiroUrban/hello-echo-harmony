@@ -98,27 +98,27 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-6">Our Services</h3>
             <ul className="space-y-4">
               <li>
-                <Link href="/teleconsultation" className="text-gray-400 hover:text-green-500 transition-colors">
+                <Link href="/services/teleconsultation" className="text-gray-400 hover:text-green-500 transition-colors">
                   Teleconsultation
                 </Link>
               </li>
               <li>
-                <Link href="/appointments" className="text-gray-400 hover:text-green-500 transition-colors">
+                <Link href="/services/appointments" className="text-gray-400 hover:text-green-500 transition-colors">
                   Appointment Booking
                 </Link>
               </li>
               <li>
-                <Link href="/emergency" className="text-gray-400 hover:text-green-500 transition-colors">
+                <Link href="/services/emergency" className="text-gray-400 hover:text-green-500 transition-colors">
                   Emergency Services
                 </Link>
               </li>
               <li>
-                <Link href="/pharmacy" className="text-gray-400 hover:text-green-500 transition-colors">
+                <Link href="/services/pharmacy" className="text-gray-400 hover:text-green-500 transition-colors">
                   Medication Ordering
                 </Link>
               </li>
               <li>
-                <Link href="/ai-doctor" className="text-gray-400 hover:text-green-500 transition-colors">
+                <Link href="/services/ai-assistant" className="text-gray-400 hover:text-green-500 transition-colors">
                   AI Health Assistant
                 </Link>
               </li>
@@ -147,7 +147,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-500 text-sm">
               By subscribing, you agree to our{" "}
-              <Link href="/privacy" className="text-green-500 hover:underline">
+              <Link href="/privacy-policy" className="text-green-500 hover:underline">
                 Privacy Policy
               </Link>
             </p>
@@ -159,10 +159,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">&copy; {currentYear} HEALTHLINE RWANDA. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/terms" className="text-gray-500 hover:text-green-500 text-sm">
+            <Link href="/terms-of-service" className="text-gray-500 hover:text-green-500 text-sm">
               Terms of Service
             </Link>
-            <Link href="/privacy" className="text-gray-500 hover:text-green-500 text-sm">
+            <Link href="/privacy-policy" className="text-gray-500 hover:text-green-500 text-sm">
               Privacy Policy
             </Link>
             <Link href="/faq" className="text-gray-500 hover:text-green-500 text-sm">
