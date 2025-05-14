@@ -73,10 +73,10 @@ export default function ServiceCards() {
                 )}
               </div>
               <Link
-                href="/ai-doctor"
+                href="/services/ai-assistant"
                 className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800"
               >
-                Try AI Doctor <ArrowRight className="ml-2 h-4 w-4" />
+                Try AI Assistant <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
             <div className="relative min-h-[300px] lg:min-h-0">

@@ -2,6 +2,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Check, Brain, Activity, Clipboard, MessageSquare } from "lucide-react"
+import Link from "next/link"
 
 export default function AiDoctorService() {
   const features = [
@@ -62,11 +63,12 @@ export default function AiDoctorService() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-teal-600 hover:bg-teal-700">
-                Try AI Assistant <Brain className="ml-2 h-4 w-4" />
+              <Button className="bg-teal-600 hover:bg-teal-700" >
+                <Link href="/services/ai-assistant#demo">Try AI Assistant Try AI Assistant <Brain className="ml-2 h-4 w-4" /></Link>
+            
               </Button>
               <Button variant="outline" className="border-teal-600 text-teal-600 hover:bg-teal-50">
-                Learn More
+                <Link href="/services/ai-assistant">Learn More</Link>             
               </Button>
             </div>
           </div>
