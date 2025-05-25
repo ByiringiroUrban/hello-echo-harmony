@@ -12,11 +12,11 @@ export default function Navbar() {
               <div className="absolute inset-0 bg-green-600 rounded-tl-xl rounded-br-xl"></div>
               <div className="absolute inset-1 bg-blue-600 rounded-tr-xl rounded-bl-xl"></div>
               <div className="absolute inset-2 bg-white flex items-center justify-center">
-                <span className="text-green-600 font-bold text-[0.7rem]">HR</span>
+                <span className="text-green-600 font-bold text-[0.7rem]">OH</span>
               </div>
             </div>
             <span className="font-bold text-xl text-gray-900">
-              HEALTHLINE <span className="text-green-600">RWANDA</span>
+              ONE HEALTHLINE <span className="text-green-600">CONNECT</span>
             </span>
           </Link>
 
