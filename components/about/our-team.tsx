@@ -52,7 +52,7 @@ export default function OurTeam() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Leadership Team</h2>
           <p className="text-gray-600">
-            Meet the dedicated professionals behind HEALTHLINE RWANDA&apos;s mission to transform healthcare
+            Meet the dedicated professionals behind ONE HEALTHLINE CONNECT&apos;s mission to transform healthcare
           </p>
         </div>
 

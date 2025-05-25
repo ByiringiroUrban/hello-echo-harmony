@@ -22,7 +22,7 @@ export default function AppointmentsTestimonials() {
       location: "Musanze",
       image: "/placeholder.svg?height=100&width=100&text=MCU",
       rating: 4,
-      text: "I appreciate how easy it is to reschedule when needed. Life happens, and HEALTHLINE RWANDA understands that. The booking system is flexible and user-friendly.",
+      text: "I appreciate how easy it is to reschedule when needed. Life happens, and ONE HEALTHLINE CONNECT understands that. The booking system is flexible and user-friendly.",
     },
   ]
 

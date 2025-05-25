@@ -8,7 +8,7 @@ export default function EmergencyCta() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">Emergency Medical Care When You Need It Most</h2>
           <p className="mb-8 text-lg md:text-xl">
-            HEALTHLINE RWANDA&apos;s emergency services are available 24/7 across the country. Save our emergency number for
+            ONE HEALTHLINE CONNECT&apos;s emergency services are available 24/7 across the country. Save our emergency number for
             when you need immediate medical assistance.
           </p>
 

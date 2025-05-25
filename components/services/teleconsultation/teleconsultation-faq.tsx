@@ -8,7 +8,7 @@ export default function TeleconsultationFaq() {
     {
       question: "What equipment do I need for a teleconsultation?",
       answer:
-        "You'll need a device with a camera and microphone (smartphone, tablet, or computer), a stable internet connection, and the HEALTHLINE RWANDA app installed. For the best experience, we recommend using headphones and finding a quiet, well-lit space for your consultation.",
+        "You'll need a device with a camera and microphone (smartphone, tablet, or computer), a stable internet connection, and the ONE HEALTHLINE CONNECT app installed. For the best experience, we recommend using headphones and finding a quiet, well-lit space for your consultation.",
     },
     {
       question: "How long does a typical teleconsultation last?",
@@ -23,7 +23,7 @@ export default function TeleconsultationFaq() {
     {
       question: "What if I need lab tests or imaging?",
       answer:
-        "If your doctor determines you need laboratory tests or imaging, they can provide a digital referral. You can visit any of our partner facilities to have these tests done. The results will be uploaded to your HEALTHLINE RWANDA account and shared with your doctor for follow-up.",
+        "If your doctor determines you need laboratory tests or imaging, they can provide a digital referral. You can visit any of our partner facilities to have these tests done. The results will be uploaded to your ONE HEALTHLINE CONNECT account and shared with your doctor for follow-up.",
     },
     {
       question: "Is teleconsultation covered by insurance?",

@@ -6,7 +6,7 @@ import { ChevronDown, ChevronUp } from "lucide-react"
 export default function ContactFaq() {
   const faqs = [
     {
-      question: "What are the best ways to contact HEALTHLINE RWANDA?",
+      question: "What are the best ways to contact ONE HEALTHLINE CONNECT?",
       answer:
         "You can contact us through multiple channels: phone (+250 788 123 456), email (info@healthlinerwanda.com), the contact form on our website, or through the messaging feature in our mobile app. For emergencies, please use our emergency hotline (+250 788 999 911) or the Emergency Assistance feature in the app.",
     },
@@ -28,12 +28,12 @@ export default function ContactFaq() {
     {
       question: "Who should I contact for technical issues with the app?",
       answer:
-        "For technical support with the HEALTHLINE RWANDA app, please contact our technical support team at support@healthlinerwanda.com or call +250 788 123 456 and select the technical support option. You can also submit a support ticket through our contact form by selecting 'Technical Support' from the department dropdown.",
+        "For technical support with the ONE HEALTHLINE CONNECT app, please contact our technical support team at support@healthlinerwanda.com or call +250 788 123 456 and select the technical support option. You can also submit a support ticket through our contact form by selecting 'Technical Support' from the department dropdown.",
     },
     {
       question: "How can I report an emergency situation?",
       answer:
-        "For medical emergencies, please call our 24/7 emergency hotline at +250 788 999 911 or use the Emergency Assistance button in the HEALTHLINE RWANDA app. Our emergency response team will assess your situation and dispatch appropriate help immediately.",
+        "For medical emergencies, please call our 24/7 emergency hotline at +250 788 999 911 or use the Emergency Assistance button in the ONE HEALTHLINE CONNECT app. Our emergency response team will assess your situation and dispatch appropriate help immediately.",
     },
   ]
 
@@ -49,7 +49,7 @@ export default function ContactFaq() {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
           <p className="text-gray-600">
-            Find answers to common questions about contacting and communicating with HEALTHLINE RWANDA
+            Find answers to common questions about contacting and communicating with ONE HEALTHLINE CONNECT
           </p>
         </div>
 

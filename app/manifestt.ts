@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "HEALTHLINE RWANDA",
+    name: "ONE HEALTHLINE CONNECT",
     short_name: "HEALTHLINE",
     description: "Your Healthcare Partner in Rwanda",
     start_url: "/",

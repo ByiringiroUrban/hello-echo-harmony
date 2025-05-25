@@ -31,9 +31,9 @@ export default function DoctorsFaq() {
         "If you miss your appointment without canceling at least 6 hours in advance, you may be charged a missed appointment fee (typically 50% of the consultation fee). We understand emergencies happen, so you can contact our customer support team if you missed an appointment due to unavoidable circumstances. We encourage rescheduling rather than missing appointments to ensure continuity of care.",
     },
     {
-      question: "How are the doctors on HEALTHLINE RWANDA verified?",
+      question: "How are the doctors on ONE HEALTHLINE CONNECT verified?",
       answer:
-        "All doctors on our platform undergo a rigorous verification process. We verify their medical licenses, professional certifications, educational background, and practice history. We also conduct interviews and check references. Additionally, we continuously monitor patient feedback and reviews to ensure our doctors maintain high standards of care. Only doctors who meet our strict criteria are allowed to join the HEALTHLINE RWANDA network.",
+        "All doctors on our platform undergo a rigorous verification process. We verify their medical licenses, professional certifications, educational background, and practice history. We also conduct interviews and check references. Additionally, we continuously monitor patient feedback and reviews to ensure our doctors maintain high standards of care. Only doctors who meet our strict criteria are allowed to join the ONE HEALTHLINE CONNECT network.",
     },
   ]
 

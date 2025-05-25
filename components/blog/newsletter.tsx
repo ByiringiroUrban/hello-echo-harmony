@@ -9,7 +9,7 @@ export default function Newsletter() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
           <p className="text-gray-600 mb-8">
-            Get the latest health tips, medical news, and updates from HEALTHLINE RWANDA delivered directly to your
+            Get the latest health tips, medical news, and updates from ONE HEALTHLINE CONNECT delivered directly to your
             inbox.
           </p>
 
@@ -25,7 +25,7 @@ export default function Newsletter() {
             <Link href="/privacy-policy" className="underline hover:text-blue-600">
               Privacy Policy
             </Link>{" "}
-            and consent to receive health-related emails from HEALTHLINE RWANDA.
+            and consent to receive health-related emails from ONE HEALTHLINE CONNECT.
           </p>
         </div>
       </div>

@@ -8,7 +8,7 @@ export default function AppointmentCta() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Take Control of Your Health?</h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-            Book your appointment today and take the first step towards better health with HEALTHLINE RWANDA&apos;s network
+            Book your appointment today and take the first step towards better health with ONE HEALTHLINE CONNECT&apos;s network
             of qualified healthcare professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

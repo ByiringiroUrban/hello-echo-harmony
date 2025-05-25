@@ -19,7 +19,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-gray-700 max-w-xl">
-              HEALTHLINE RWANDA brings advanced healthcare to your fingertips. Connect with specialists, book
+              ONE HEALTHLINE CONNECT brings advanced healthcare to your fingertips. Connect with specialists, book
               appointments, access emergency services, and manage your health journey—all in one platform.
             </p>
 

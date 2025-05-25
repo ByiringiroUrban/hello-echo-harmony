@@ -8,8 +8,8 @@ import FaqCTA from "@/components/faq/faq-cta"
 import DefaultLayout from "@/components/layouts/DefaultLayout"
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | HEALTHLINE RWANDA",
-  description: "Find answers to common questions about HEALTHLINE RWANDA's services, appointments, payments, and more.",
+  title: "Frequently Asked Questions | ONE HEALTHLINE CONNECT",
+  description: "Find answers to common questions about ONE HEALTHLINE CONNECT's services, appointments, payments, and more.",
 }
 
 export default function FaqPage() {

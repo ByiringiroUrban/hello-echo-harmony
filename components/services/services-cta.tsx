@@ -8,7 +8,7 @@ export default function ServicesCta() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Healthcare Experience?</h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-            Download the HEALTHLINE RWANDA app today and gain access to comprehensive healthcare services at your
+            Download the ONE HEALTHLINE CONNECT app today and gain access to comprehensive healthcare services at your
             fingertips.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

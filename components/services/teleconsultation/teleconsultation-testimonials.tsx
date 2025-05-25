@@ -18,7 +18,7 @@ export default function TeleconsultationTestimonials() {
       image: "/placeholder.svg?height=100&width=100&text=EH",
       rating: 5,
       testimonial:
-        "Living in a rural area, it's difficult to access specialist care. Through HEALTHLINE RWANDA, I was able to consult with a cardiologist without traveling to Kigali. The video quality was excellent and the doctor was very thorough.",
+        "Living in a rural area, it's difficult to access specialist care. Through ONE HEALTHLINE CONNECT, I was able to consult with a cardiologist without traveling to Kigali. The video quality was excellent and the doctor was very thorough.",
       service: "Cardiology Consultation",
     },
     {

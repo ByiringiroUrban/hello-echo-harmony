@@ -7,7 +7,7 @@ export default function EmergencyLocations() {
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">Our Emergency Coverage Areas</h2>
           <p className="mx-auto max-w-3xl text-lg text-gray-600">
-            HEALTHLINE RWANDA provides emergency medical services across the country, with strategic locations to ensure
+            ONE HEALTHLINE CONNECT provides emergency medical services across the country, with strategic locations to ensure
             rapid response times.
           </p>
         </div>

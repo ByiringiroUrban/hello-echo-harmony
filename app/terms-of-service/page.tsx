@@ -4,8 +4,8 @@ import TermsContent from "@/components/legal/terms-content"
 import TermsCTA from "@/components/legal/terms-cta"
 
 export const metadata: Metadata = {
-  title: "Terms of Service | HEALTHLINE RWANDA",
-  description: "Terms and conditions for using HEALTHLINE RWANDA's services and platform.",
+  title: "Terms of Service | ONE HEALTHLINE CONNECT",
+  description: "Terms and conditions for using ONE HEALTHLINE CONNECT's services and platform.",
 }
 
 export default function TermsOfServicePage() {

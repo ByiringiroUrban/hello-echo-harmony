@@ -24,8 +24,8 @@ async function getTagFromParams(params: Promise<{ slug: string }>) {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const tag = await getTagFromParams(params)
   return {
-    title: `${tag.name} Articles | HEALTHLINE RWANDA Blog`,
-    description: `Browse our collection of articles tagged with ${tag.name.toLowerCase()} from HEALTHLINE RWANDA's health experts.`,
+    title: `${tag.name} Articles | ONE HEALTHLINE CONNECT Blog`,
+    description: `Browse our collection of articles tagged with ${tag.name.toLowerCase()} from ONE HEALTHLINE CONNECT's health experts.`,
   }
 }
 
@@ -43,7 +43,7 @@ export default async function BlogTagPage({ params }: PageProps) {
         <div className="mb-8">
           <h2 className="text-3xl font-bold">Tag: {tag.name}</h2>
           <p className="text-gray-600 mt-2">
-            Browse our collection of articles tagged with {tag.name.toLowerCase()} from HEALTHLINE RWANDA's health
+            Browse our collection of articles tagged with {tag.name.toLowerCase()} from ONE HEALTHLINE CONNECT's health
             experts.
           </p>
         </div>

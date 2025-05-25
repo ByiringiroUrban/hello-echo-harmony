@@ -6,8 +6,8 @@ export default function TermsContent() {
         <div className="prose prose-lg max-w-none">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">1. Introduction</h2>
           <p>
-            Welcome to HEALTHLINE RWANDA. These Terms of Service ("Terms") govern your use of our website, mobile
-            application, and services (collectively, the "Service") operated by HEALTHLINE RWANDA ("we," "us," or
+            Welcome to ONE HEALTHLINE CONNECT. These Terms of Service ("Terms") govern your use of our website, mobile
+            application, and services (collectively, the "Service") operated by ONE HEALTHLINE CONNECT ("we," "us," or
             "our").
           </p>
           <p>
@@ -17,7 +17,7 @@ export default function TermsContent() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-6">2. Service Description</h2>
           <p>
-            HEALTHLINE RWANDA provides a platform that connects users with healthcare providers for teleconsultation,
+            ONE HEALTHLINE CONNECT provides a platform that connects users with healthcare providers for teleconsultation,
             appointment booking, emergency services, medication ordering, and AI-powered health assistance. Our Service
             is not intended to replace professional medical advice, diagnosis, or treatment.
           </p>
@@ -77,17 +77,17 @@ export default function TermsContent() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-6">7. Intellectual Property</h2>
           <p>
             The Service and its original content, features, and functionality are and will remain the exclusive property
-            of HEALTHLINE RWANDA and its licensors. The Service is protected by copyright, trademark, and other laws of
+            of ONE HEALTHLINE CONNECT and its licensors. The Service is protected by copyright, trademark, and other laws of
             Rwanda and foreign countries.
           </p>
           <p>
             Our trademarks and trade dress may not be used in connection with any product or service without the prior
-            written consent of HEALTHLINE RWANDA.
+            written consent of ONE HEALTHLINE CONNECT.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-6">8. Limitation of Liability</h2>
           <p>
-            To the maximum extent permitted by law, HEALTHLINE RWANDA shall not be liable for any indirect, incidental,
+            To the maximum extent permitted by law, ONE HEALTHLINE CONNECT shall not be liable for any indirect, incidental,
             special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly
             or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
           </p>
@@ -106,7 +106,7 @@ export default function TermsContent() {
             or course of performance.
           </p>
           <p>
-            HEALTHLINE RWANDA does not warrant that the Service will be uninterrupted, timely, secure, or error-free, or
+            ONE HEALTHLINE CONNECT does not warrant that the Service will be uninterrupted, timely, secure, or error-free, or
             that any defects will be corrected.
           </p>
 
@@ -135,7 +135,7 @@ export default function TermsContent() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-6">12. Contact Us</h2>
           <p>If you have any questions about these Terms, please contact us at:</p>
           <p>
-            HEALTHLINE RWANDA
+            ONE HEALTHLINE CONNECT
             <br />
             Email: legal@healthlinerwanda.com
             <br />

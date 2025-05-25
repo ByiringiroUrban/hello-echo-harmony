@@ -31,7 +31,7 @@ async function getBlogFromParams(params: Promise<{ slug: string }>) {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const post = await getBlogFromParams(params)
   return {
-    title: `${post.title} | HEALTHLINE RWANDA Blog`,
+    title: `${post.title} | ONE HEALTHLINE CONNECT Blog`,
     description: post.excerpt,
   }
 }

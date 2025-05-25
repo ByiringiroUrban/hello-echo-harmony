@@ -53,7 +53,7 @@ export default function EmergencyFaq() {
                 How much does the emergency service cost?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                HEALTHLINE RWANDA works with all major insurance providers in Rwanda. For patients with insurance, most
+                ONE HEALTHLINE CONNECT works with all major insurance providers in Rwanda. For patients with insurance, most
                 or all costs are typically covered depending on your plan. For uninsured patients, we have a standard
                 emergency response fee, but we never delay care due to payment concerns. Our financial counselors can
                 work with you on payment plans if needed.

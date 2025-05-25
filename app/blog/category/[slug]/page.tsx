@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const category = await getCategoryFromParams(params)
 
   return {
-    title: `${category.name} Articles | HEALTHLINE RWANDA Blog`,
-    description: `Browse our collection of articles about ${category.name.toLowerCase()} from HEALTHLINE RWANDA's health experts.`,
+    title: `${category.name} Articles | ONE HEALTHLINE CONNECT Blog`,
+    description: `Browse our collection of articles about ${category.name.toLowerCase()} from ONE HEALTHLINE CONNECT's health experts.`,
   }
 }
 
@@ -39,7 +39,7 @@ export default async function BlogCategoryPage({ params }: PageProps) {
         <div className="mb-8">
           <h2 className="text-3xl font-bold">Category: {category.name}</h2>
           <p className="text-gray-600 mt-2">
-            Browse our collection of articles about {category.name.toLowerCase()} from HEALTHLINE RWANDA&apos;s health
+            Browse our collection of articles about {category.name.toLowerCase()} from ONE HEALTHLINE CONNECT&apos;s health
             experts.
           </p>
         </div>

@@ -10,7 +10,7 @@ export default function EmergencyTestimonials() {
             Lives Saved Through Our Emergency Services
           </h2>
           <p className="mx-auto max-w-3xl text-lg text-gray-600">
-            Read about real experiences from patients who received emergency care from HEALTHLINE RWANDA.
+            Read about real experiences from patients who received emergency care from ONE HEALTHLINE CONNECT.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function EmergencyTestimonials() {
               ))}
             </div>
             <blockquote className="mb-4 italic text-gray-700">
-              "I was having severe chest pain at home when my wife called HEALTHLINE RWANDA. The ambulance arrived
+              "I was having severe chest pain at home when my wife called ONE HEALTHLINE CONNECT. The ambulance arrived
               within 10 minutes, and the paramedics immediately began treatment. They saved my life - I was having a
               major heart attack. The speed and professionalism of the team was incredible."
             </blockquote>
@@ -47,7 +47,7 @@ export default function EmergencyTestimonials() {
             </div>
             <blockquote className="mb-4 italic text-gray-700">
               "My son had a severe allergic reaction while we were at a family gathering in a rural area. I didn't think
-              help would reach us in time, but HEALTHLINE RWANDA's emergency team arrived quickly and administered
+              help would reach us in time, but ONE HEALTHLINE CONNECT's emergency team arrived quickly and administered
               life-saving treatment. Their calm expertise during such a frightening situation was remarkable."
             </blockquote>
             <div className="flex items-center">
@@ -69,7 +69,7 @@ export default function EmergencyTestimonials() {
               ))}
             </div>
             <blockquote className="mb-4 italic text-gray-700">
-              "I was in a serious car accident on the highway. The HEALTHLINE RWANDA emergency team arrived quickly,
+              "I was in a serious car accident on the highway. The ONE HEALTHLINE CONNECT emergency team arrived quickly,
               stabilized me at the scene, and coordinated with the hospital so everything was ready when I arrived.
               Their quick action prevented permanent damage. I'm forever grateful for their expertise."
             </blockquote>
@@ -119,7 +119,7 @@ export default function EmergencyTestimonials() {
             <div>
               <h3 className="mb-4 text-2xl font-bold text-gray-900">Our Commitment</h3>
               <p className="mb-4 text-gray-700">
-                At HEALTHLINE RWANDA, we're committed to providing the fastest, most professional emergency medical care
+                At ONE HEALTHLINE CONNECT, we're committed to providing the fastest, most professional emergency medical care
                 possible. Our teams undergo rigorous training and use the latest medical equipment to ensure the best
                 outcomes for patients in emergency situations.
               </p>

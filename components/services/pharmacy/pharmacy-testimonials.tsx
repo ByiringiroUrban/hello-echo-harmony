@@ -24,7 +24,7 @@ export default function PharmacyTestimonials() {
       location: "Musanze",
       image: "/placeholder.svg?height=100&width=100&text=MCU",
       quote:
-        "Even though I live in a rural area, HEALTHLINE RWANDA delivers my family's medications consistently. The packaging is secure and the delivery person is always professional.",
+        "Even though I live in a rural area, ONE HEALTHLINE CONNECT delivers my family's medications consistently. The packaging is secure and the delivery person is always professional.",
       rating: 5,
     },
   ]

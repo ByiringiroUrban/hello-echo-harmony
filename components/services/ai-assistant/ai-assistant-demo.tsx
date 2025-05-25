@@ -92,7 +92,7 @@ export default function AiAssistantDemo() {
                   <line x1="12" x2="12" y1="19" y2="22"></line>
                 </svg>
               </div>
-              <h3 className="font-bold text-lg">HEALTHLINE RWANDA AI Assistant</h3>
+              <h3 className="font-bold text-lg">ONE HEALTHLINE CONNECT AI Assistant</h3>
             </div>
             <p className="mt-2 text-sm text-teal-100">
               This is a demo. In a real conversation, our AI would provide personalized health guidance based on your
@@ -196,7 +196,7 @@ export default function AiAssistantDemo() {
         <div className="mt-8 text-center">
           <p className="text-gray-500 text-sm max-w-2xl mx-auto">
             This is a demonstration of our AI Health Assistant. The full version provides more comprehensive health
-            guidance and integrates with all HEALTHLINE RWANDA services.
+            guidance and integrates with all ONE HEALTHLINE CONNECT services.
           </p>
         </div>
       </div>

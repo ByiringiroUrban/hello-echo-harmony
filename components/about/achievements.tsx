@@ -4,7 +4,7 @@ export default function Achievements() {
   const milestones = [
     {
       year: "2023",
-      title: "HEALTHLINE RWANDA Founded",
+      title: "ONE HEALTHLINE CONNECT Founded",
       description: "Launched with a mission to transform healthcare access in Rwanda.",
     },
     {

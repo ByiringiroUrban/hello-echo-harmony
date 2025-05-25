@@ -66,7 +66,7 @@ export default function DepartmentServices() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Services Across Departments</h2>
           <p className="text-gray-600">
-            HEALTHLINE RWANDA offers a comprehensive range of healthcare services through our various departments
+            ONE HEALTHLINE CONNECT offers a comprehensive range of healthcare services through our various departments
           </p>
         </div>
 

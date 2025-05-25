@@ -8,9 +8,9 @@ import BlogCta from "@/components/blog/blog-cta"
 import Newsletter from "@/components/blog/newsletter"
 
 export const metadata: Metadata = {
-  title: "Health Blog | HEALTHLINE RWANDA",
+  title: "Health Blog | ONE HEALTHLINE CONNECT",
   description:
-    "Stay informed with the latest health tips, medical research, and wellness advice from HEALTHLINE RWANDA's health experts.",
+    "Stay informed with the latest health tips, medical research, and wellness advice from ONE HEALTHLINE CONNECT's health experts.",
 }
 
 export default function BlogPage() {

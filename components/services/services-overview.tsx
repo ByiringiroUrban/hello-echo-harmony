@@ -46,7 +46,7 @@ export default function ServicesOverview() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Services at a Glance</h2>
           <p className="text-gray-600">
-            HEALTHLINE RWANDA offers a comprehensive suite of healthcare services designed to meet the diverse needs of
+            ONE HEALTHLINE CONNECT offers a comprehensive suite of healthcare services designed to meet the diverse needs of
             our users
           </p>
         </div>

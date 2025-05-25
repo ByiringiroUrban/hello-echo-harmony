@@ -23,8 +23,8 @@ async function getAuthorFromParams(params: Promise<{ slug: string }>) {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const author = await getAuthorFromParams(params)
   return {
-    title: `Articles by ${author.name} | HEALTHLINE RWANDA Blog`,
-    description: `Browse articles written by ${author.name}, ${author.specialties.join(", ")} specialist at HEALTHLINE RWANDA.`,
+    title: `Articles by ${author.name} | ONE HEALTHLINE CONNECT Blog`,
+    description: `Browse articles written by ${author.name}, ${author.specialties.join(", ")} specialist at ONE HEALTHLINE CONNECT.`,
   }
 }
 

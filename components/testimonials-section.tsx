@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
       role: "Mother of two",
       image: "/t3.png",
       quote:
-        "HEALTHLINE RWANDA has transformed how my family accesses healthcare. The teleconsultation feature saved us hours of travel when my son had a fever. The doctor was able to diagnose and prescribe medication that was delivered to our home within hours.",
+        "ONE HEALTHLINE CONNECT has transformed how my family accesses healthcare. The teleconsultation feature saved us hours of travel when my son had a fever. The doctor was able to diagnose and prescribe medication that was delivered to our home within hours.",
       rating: 5,
     },
     {
@@ -52,7 +52,7 @@ export default function TestimonialsSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900">What Our Patients Say</h2>
           <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
-            Real experiences from people who have transformed their healthcare journey with HEALTHLINE RWANDA
+            Real experiences from people who have transformed their healthcare journey with ONE HEALTHLINE CONNECT
           </p>
         </div>
 

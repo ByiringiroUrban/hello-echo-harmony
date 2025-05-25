@@ -6,7 +6,7 @@ export default function ContactCta() {
     <section className="py-20 bg-gradient-to-br from-blue-900 to-green-900 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Stay Connected with HEALTHLINE RWANDA</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Stay Connected with ONE HEALTHLINE CONNECT</h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
             Download our app for the fastest way to access our services, contact our team, and manage your healthcare
             needs on the go.

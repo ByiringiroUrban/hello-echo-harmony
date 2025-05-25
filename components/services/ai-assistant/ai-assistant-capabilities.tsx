@@ -98,7 +98,7 @@ export default function AiAssistantCapabilities() {
     {
       id: "service-integration",
       title: "Service Integration",
-      description: "Seamlessly connect with other HEALTHLINE RWANDA services based on your needs.",
+      description: "Seamlessly connect with other ONE HEALTHLINE CONNECT services based on your needs.",
       features: [
         "Appointment scheduling",
         "Teleconsultation initiation",

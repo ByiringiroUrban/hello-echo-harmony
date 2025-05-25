@@ -6,7 +6,7 @@ export default function ContactLocations() {
   const locations = [
     {
       id: 1,
-      name: "HEALTHLINE RWANDA Headquarters",
+      name: "ONE HEALTHLINE CONNECT Headquarters",
       address: "KG 123 St, Kigali, Rwanda",
       phone: "+250 788 123 456",
       image: "/placeholder.svg?height=300&width=500&text=Kigali+Headquarters",

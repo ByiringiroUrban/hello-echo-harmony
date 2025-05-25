@@ -16,7 +16,7 @@ export default function CtaSection() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h2 className="text-3xl md:text-4xl font-bold leading-tight">Download the HEALTHLINE RWANDA App Today</h2>
+            <h2 className="text-3xl md:text-4xl font-bold leading-tight">Download the ONE HEALTHLINE CONNECT App Today</h2>
             <p className="text-white/80 text-lg">
               Take control of your healthcare journey with our comprehensive mobile application. Access all our services
               anytime, anywhere.
@@ -51,7 +51,7 @@ export default function CtaSection() {
               <div className="relative h-[36rem] w-[18rem] mx-auto">
                  <Image
                       src="/app.png"
-                      alt="HEALTHLINE RWANDA App"
+                      alt="ONE HEALTHLINE CONNECT App"
                       fill
                       className="object-cover"
                     />

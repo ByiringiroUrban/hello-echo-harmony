@@ -53,7 +53,7 @@ export default function PharmacyFeatures() {
             Why Choose Our <span className="text-purple-600">Pharmacy Service</span>
           </h2>
           <p className="text-xl text-gray-600">
-            HEALTHLINE RWANDA offers a comprehensive medication service designed to make healthcare more accessible and
+            ONE HEALTHLINE CONNECT offers a comprehensive medication service designed to make healthcare more accessible and
             convenient for all Rwandans.
           </p>
         </div>

@@ -7,7 +7,7 @@ export default function EmergencyFeatures() {
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">Our Emergency Service Features</h2>
           <p className="mx-auto max-w-3xl text-lg text-gray-600">
-            HEALTHLINE RWANDA provides comprehensive emergency medical services designed to deliver rapid, professional
+            ONE HEALTHLINE CONNECT provides comprehensive emergency medical services designed to deliver rapid, professional
             care when you need it most.
           </p>
         </div>

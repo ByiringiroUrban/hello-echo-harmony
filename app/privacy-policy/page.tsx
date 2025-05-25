@@ -5,8 +5,8 @@ import PrivacyCTA from "@/components/legal/privacy-cta"
 import DefaultLayout from "@/components/layouts/DefaultLayout"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | HEALTHLINE RWANDA",
-  description: "Our commitment to protecting your privacy and personal information at HEALTHLINE RWANDA.",
+  title: "Privacy Policy | ONE HEALTHLINE CONNECT",
+  description: "Our commitment to protecting your privacy and personal information at ONE HEALTHLINE CONNECT.",
 }
 
 export default function PrivacyPolicyPage() {

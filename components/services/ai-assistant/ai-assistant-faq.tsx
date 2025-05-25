@@ -45,7 +45,7 @@ export default function AiAssistantFaq() {
     {
       question: "Is there a cost to use the AI Health Assistant?",
       answer:
-        "The basic version of our AI Health Assistant is available free of charge to all HEALTHLINE RWANDA users. We also offer a premium version with additional features like unlimited specialist consultations, priority response, and advanced health tracking for a monthly subscription fee.",
+        "The basic version of our AI Health Assistant is available free of charge to all ONE HEALTHLINE CONNECT users. We also offer a premium version with additional features like unlimited specialist consultations, priority response, and advanced health tracking for a monthly subscription fee.",
     },
   ]
 

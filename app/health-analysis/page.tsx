@@ -7,9 +7,9 @@ import HealthAnalysisFaq from "@/components/health-analysis/health-analysis-faq"
 import HealthAnalysisCta from "@/components/health-analysis/health-analysis-cta"
 
 export const metadata = {
-  title: "Health Analysis | HEALTHLINE RWANDA",
+  title: "Health Analysis | ONE HEALTHLINE CONNECT",
   description:
-    "Get a comprehensive analysis of your health status with HEALTHLINE RWANDA's advanced health analysis tools and professional guidance.",
+    "Get a comprehensive analysis of your health status with ONE HEALTHLINE CONNECT's advanced health analysis tools and professional guidance.",
 }
 
 export default function HealthAnalysisPage() {

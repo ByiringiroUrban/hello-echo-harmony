@@ -5,7 +5,7 @@ export default function HowItWorks() {
     {
       number: "01",
       title: "Download the App",
-      description: "Download the HEALTHLINE RWANDA app from the App Store or Google Play Store.",
+      description: "Download the ONE HEALTHLINE CONNECT app from the App Store or Google Play Store.",
       color: "bg-blue-600",
     },
     {
@@ -34,7 +34,7 @@ export default function HowItWorks() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">How It Works</h2>
           <p className="text-gray-600">
-            Getting started with HEALTHLINE RWANDA is easy. Follow these simple steps to access our healthcare services.
+            Getting started with ONE HEALTHLINE CONNECT is easy. Follow these simple steps to access our healthcare services.
           </p>
         </div>
 

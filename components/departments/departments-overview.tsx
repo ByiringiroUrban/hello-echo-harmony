@@ -95,7 +95,7 @@ export default function DepartmentsOverview() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Medical Departments</h2>
           <p className="text-gray-600">
-            HEALTHLINE RWANDA offers access to a wide range of medical specialties to address all your healthcare needs
+            ONE HEALTHLINE CONNECT offers access to a wide range of medical specialties to address all your healthcare needs
           </p>
         </div>
 

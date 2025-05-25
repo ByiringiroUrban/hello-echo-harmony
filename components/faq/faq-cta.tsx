@@ -10,7 +10,7 @@ export default function FaqCTA() {
             Ready to experience better healthcare?
           </h2>
           <p className="text-white/90 max-w-[700px] mx-auto">
-            Join thousands of Rwandans who trust HEALTHLINE RWANDA for their healthcare needs.
+            Join thousands of Rwandans who trust ONE HEALTHLINE CONNECT for their healthcare needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Button asChild className="bg-white text-green-700 hover:bg-white/90">

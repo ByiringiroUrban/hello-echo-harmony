@@ -6,8 +6,8 @@ export default function PrivacyContent() {
         <div className="prose prose-lg max-w-none">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Introduction</h2>
           <p>
-            HEALTHLINE RWANDA ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
-            explains how your personal information is collected, used, and disclosed by HEALTHLINE RWANDA. This Privacy
+            ONE HEALTHLINE CONNECT ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+            explains how your personal information is collected, used, and disclosed by ONE HEALTHLINE CONNECT. This Privacy
             Policy applies to our website, healthlinerwanda.com, and its associated mobile application (collectively,
             our "Service").
           </p>
@@ -123,7 +123,7 @@ export default function PrivacyContent() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-6">Contact Us</h2>
           <p>If you have any questions about this Privacy Policy, please contact us at:</p>
           <p>
-            HEALTHLINE RWANDA
+            ONE HEALTHLINE CONNECT
             <br />
             Email: privacy@healthlinerwanda.com
             <br />

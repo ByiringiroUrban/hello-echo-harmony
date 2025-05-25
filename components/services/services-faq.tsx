@@ -9,17 +9,17 @@ export default function ServicesFaq() {
     {
       question: "How do I book a teleconsultation?",
       answer:
-        "To book a teleconsultation, download the HEALTHLINE RWANDA app, create an account, and navigate to the Teleconsultation section. Select your preferred specialist, choose an available time slot, and confirm your booking. You'll receive a confirmation notification and a reminder before your appointment.",
+        "To book a teleconsultation, download the ONE HEALTHLINE CONNECT app, create an account, and navigate to the Teleconsultation section. Select your preferred specialist, choose an available time slot, and confirm your booking. You'll receive a confirmation notification and a reminder before your appointment.",
     },
     {
       question: "What types of specialists are available on the platform?",
       answer:
-        "HEALTHLINE RWANDA partners with a wide range of specialists including general practitioners, pediatricians, cardiologists, dermatologists, psychiatrists, nutritionists, and more. The availability of specialists may vary based on your location and the time of day.",
+        "ONE HEALTHLINE CONNECT partners with a wide range of specialists including general practitioners, pediatricians, cardiologists, dermatologists, psychiatrists, nutritionists, and more. The availability of specialists may vary based on your location and the time of day.",
     },
     {
       question: "How does the emergency service work?",
       answer:
-        "In case of an emergency, open the HEALTHLINE RWANDA app and tap the Emergency button. You'll be connected to our emergency response team who will assess your situation and dispatch appropriate help. The app also shares your GPS location to ensure help reaches you quickly.",
+        "In case of an emergency, open the ONE HEALTHLINE CONNECT app and tap the Emergency button. You'll be connected to our emergency response team who will assess your situation and dispatch appropriate help. The app also shares your GPS location to ensure help reaches you quickly.",
     },
     {
       question: "Can I order prescription medications through the app?",

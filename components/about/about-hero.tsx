@@ -18,10 +18,10 @@ export default function AboutHero() {
         </div>
 
         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-          <div className="aspect-[21/9] relative">
+          <div className="aspect-[18/9] relative">
             <Image
-              src="/placeholder.svg?height=900&width=2100&text=HEALTHLINE+RWANDA+Team"
-              alt="HEALTHLINE RWANDA Team"
+              src="/about-hero.png"
+              alt="ONE HEALTHLINE CONNECT Team"
               fill
               className="object-cover"
             />
@@ -31,7 +31,7 @@ export default function AboutHero() {
             <div className="max-w-3xl">
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Bridging the Gap in Healthcare Access</h2>
               <p className="text-white/90 text-lg">
-                Founded in 2023, HEALTHLINE RWANDA is dedicated to making quality healthcare accessible to all Rwandans
+                Founded in 2025, ONE HEALTHLINE CONNECT is dedicated to making quality healthcare accessible to all Rwandans
                 through technology and innovation.
               </p>
             </div>

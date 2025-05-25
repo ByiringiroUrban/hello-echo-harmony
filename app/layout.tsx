@@ -10,7 +10,7 @@ import AccessibilityWidget from "@/components/accessibility-widget"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "HEALTHLINE RWANDA - Your Healthcare Partner",
+  title: "ONE HEALTHLINE CONNECT - Your Healthcare Partner",
   description:
     "Access healthcare services virtually including teleconsultation, appointment booking, emergency services, medication ordering, and AI health monitoring.",
 }

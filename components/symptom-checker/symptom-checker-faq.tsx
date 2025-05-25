@@ -62,7 +62,7 @@ export default function SymptomCheckerFaq() {
 
             <AccordionItem value="item-6">
               <AccordionTrigger>
-                How does the symptom checker work with HEALTHLINE RWANDA's other services?
+                How does the symptom checker work with ONE HEALTHLINE CONNECT's other services?
               </AccordionTrigger>
               <AccordionContent>
                 Our symptom checker is integrated with our other healthcare services. After receiving your results, you

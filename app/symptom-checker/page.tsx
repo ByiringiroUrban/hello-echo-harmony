@@ -5,9 +5,9 @@ import SymptomCheckerFaq from "@/components/symptom-checker/symptom-checker-faq"
 import SymptomCheckerCta from "@/components/symptom-checker/symptom-checker-cta"
 
 export const metadata = {
-  title: "Symptom Checker | HEALTHLINE RWANDA",
+  title: "Symptom Checker | ONE HEALTHLINE CONNECT",
   description:
-    "Check your symptoms and get preliminary health insights with HEALTHLINE RWANDA's interactive symptom checker tool.",
+    "Check your symptoms and get preliminary health insights with ONE HEALTHLINE CONNECT's interactive symptom checker tool.",
 }
 
 export default function SymptomCheckerPage() {

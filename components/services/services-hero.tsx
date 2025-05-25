@@ -33,7 +33,7 @@ export default function ServicesHero() {
               <div className="aspect-[4/3] relative">
                 <Image
                   src="/placeholder.svg?height=600&width=800&text=Healthcare+Services"
-                  alt="HEALTHLINE RWANDA Services"
+                  alt="ONE HEALTHLINE CONNECT Services"
                   fill
                   className="object-cover"
                 />

@@ -52,7 +52,7 @@ export default function ContactInfo() {
               <h3 className="font-bold text-gray-900 mb-2">Emergency Contact</h3>
               <p className="text-gray-700 mb-2">
                 For medical emergencies, please call our 24/7 emergency hotline or use the Emergency Assistance feature
-                in the HEALTHLINE RWANDA app.
+                in the ONE HEALTHLINE CONNECT app.
               </p>
               <p className="text-red-600 font-bold">Emergency Hotline: +250 788 999 911</p>
             </div>

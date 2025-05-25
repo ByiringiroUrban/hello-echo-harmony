@@ -157,7 +157,7 @@ export default function Footer() {
         <hr className="border-gray-800 my-10" />
 
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">&copy; {currentYear} HEALTHLINE RWANDA. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">&copy; {currentYear} ONE HEALTHLINE CONNECT. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/terms-of-service" className="text-gray-500 hover:text-green-500 text-sm">
               Terms of Service

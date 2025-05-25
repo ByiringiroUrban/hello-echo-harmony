@@ -7,7 +7,7 @@ export default function OurStory() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Story</h2>
           <p className="text-gray-600">
-            The journey of HEALTHLINE RWANDA from an idea to Rwanda&apos;s leading healthcare platform
+            The journey of ONE HEALTHLINE CONNECT from an idea to Rwanda&apos;s leading healthcare platform
           </p>
         </div>
 
@@ -17,7 +17,7 @@ export default function OurStory() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">The Beginning</h3>
                 <p className="text-gray-700">
-                  HEALTHLINE RWANDA was born out of a personal experience of our founder, Dr. Jean Mugabo, who witnessed
+                  ONE HEALTHLINE CONNECT was born out of a personal experience of our founder, Dr. Jean Mugabo, who witnessed
                   firsthand the challenges faced by rural communities in accessing quality healthcare. After losing a
                   family member due to delayed medical attention, he was determined to find a solution that would bridge
                   the gap between patients and healthcare providers.
@@ -47,7 +47,7 @@ export default function OurStory() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Today</h3>
                 <p className="text-gray-700">
-                  Today, HEALTHLINE RWANDA serves thousands of patients across the country, partnering with major
+                  Today, ONE HEALTHLINE CONNECT serves thousands of patients across the country, partnering with major
                   hospitals, clinics, and pharmacies to provide comprehensive healthcare services. Our team has grown to
                   include healthcare professionals, technology experts, and business leaders, all united by a common
                   mission to improve healthcare access in Rwanda.

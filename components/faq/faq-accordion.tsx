@@ -61,7 +61,7 @@ const faqData = [
     id: "medication",
     questions: [
       {
-        question: "How can I order medication through HEALTHLINE RWANDA?",
+        question: "How can I order medication through ONE HEALTHLINE CONNECT?",
         answer:
           "You can order medication through our app or website by uploading your prescription, selecting the medications, and choosing delivery or pickup options. We partner with licensed pharmacies to fulfill your orders.",
       },
