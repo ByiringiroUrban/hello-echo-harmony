@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Check, Video, MessageSquare, FileText, Clock } from "lucide-react"
 
@@ -65,12 +66,16 @@ export default function TeleconsultationService() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Book a Consultation <Video className="ml-2 h-4 w-4" />
-              </Button>
-              <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-                View Doctors
-              </Button>
+              <Link href="/teleconsultation/book">
+                <Button className="bg-blue-600 hover:bg-blue-700">
+                  Book a Consultation <Video className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+              <Link href="/medical-records">
+                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                  View Medical Records
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -89,7 +94,6 @@ export default function TeleconsultationService() {
                   />
                 </div>
 
-                {/* Overlaid feature cards */}
                 <div className="absolute top-4 left-4 bg-white p-4 rounded-xl shadow-lg flex items-center space-x-3">
                   <div className="bg-blue-100 p-2 rounded-lg">
                     <MessageSquare className="h-6 w-6 text-blue-600" />

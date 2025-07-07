@@ -7,6 +7,7 @@ const cookieParser = require('cookie-parser');
 
 // Route imports
 const authRoutes = require('./routes/authRoutes');
+const teleconsultationRoutes = require('./routes/teleconsultationRoutes');
 
 dotenv.config();
 connectDB();
@@ -26,6 +27,7 @@ app.use(cookieParser());
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/teleconsultation', teleconsultationRoutes);
 
 // Test route
 app.get('/', (req, res) => {

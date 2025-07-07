@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/layouts/navbar"
 import Hero from "@/components/hero"
 import ServiceCards from "@/components/services/service-cards"
@@ -14,10 +15,6 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Navbar />
       <div className="relative overflow-hidden">
-        {/* Background decorative elements */}
-        {/* <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-green-50 rounded-bl-full opacity-20"></div>
-        <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-blue-50 rounded-tr-full opacity-20"></div> */}
-
         <Hero />
         <ServiceCards />
         <DepartmentSection />
