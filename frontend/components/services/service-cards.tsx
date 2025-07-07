@@ -1,3 +1,4 @@
+
 import Link from "next/link"
 import Image from "next/image"
 import { Video, Calendar, Phone, Pill, ArrowRight } from "lucide-react"
@@ -29,7 +30,7 @@ export default function ServiceCards() {
             title="Appointments"
             description="Book and manage medical appointments with ease"
             image="/4.png"
-            href="Appointments"
+            href="/appointments"
           />
 
           <ServiceCard

@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -22,22 +23,60 @@ export default function TeleconsultationService() {
     { name: "Nutrition", availability: "9AM - 6PM" },
   ]
 
+  const steps = [
+    { number: 1, title: "Select Hospital/Clinic", desc: "Choose from our partner healthcare providers" },
+    { number: 2, title: "Choose Consultation Type", desc: "General or Specialist consultation" },
+    { number: 3, title: "Select Insurance", desc: "Choose your payment method" },
+    { number: 4, title: "Register Patient Details", desc: "Fill in your information" },
+    { number: 5, title: "Pay Consultation Fee", desc: "Via Bank Transfer or USSD" },
+    { number: 6, title: "Attend Your Consultation", desc: "Secure video or phone call" },
+    { number: 7, title: "Receive Follow-Up", desc: "Digital prescription and referrals" },
+    { number: 8, title: "Review Medical History", desc: "Access your medical records" },
+  ]
+
   return (
-    <section id="teleconsultation" className="py-20 bg-white">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Hero Section */}
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full mb-6">
+            <Video className="h-4 w-4 mr-2" />
+            <span className="text-sm font-medium">Teleconsultation Service</span>
+          </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">
+            Connect with Healthcare Professionals from Home
+          </h1>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Our teleconsultation service connects you with qualified healthcare professionals from various hospitals
+            across Rwanda. Get quality care without the travel.
+          </p>
+        </div>
+
+        {/* How It Works - 8 Steps */}
+        <div className="mb-20">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">How Teleconsultation Works</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {steps.map((step, index) => (
+              <div key={index} className="text-center">
+                <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-lg font-bold">
+                  {step.number}
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{step.title}</h3>
+                <p className="text-gray-600 text-sm">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Main Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="order-2 lg:order-1">
-            <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full mb-6">
-              <Video className="h-4 w-4 mr-2" />
-              <span className="text-sm font-medium">Teleconsultation</span>
-            </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Connect with Healthcare Professionals from the Comfort of Your Home
+              Quality Healthcare at Your Fingertips
             </h2>
             <p className="text-gray-600 mb-8">
-              Our teleconsultation service connects you with qualified healthcare professionals from various hospitals
-              across Rwanda. Whether you need a quick consultation for a minor issue or specialist advice for a chronic
-              condition, our platform makes it easy to get the care you need without the travel.
+              Whether you need a quick consultation for a minor issue or specialist advice for a chronic
+              condition, our platform makes it easy to get the care you need.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -67,12 +106,12 @@ export default function TeleconsultationService() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/teleconsultation/book">
-                <Button className="bg-blue-600 hover:bg-blue-700">
-                  Book a Consultation <Video className="ml-2 h-4 w-4" />
+                <Button className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3">
+                  Start Consultation <Video className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
               <Link href="/medical-records">
-                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 text-lg px-8 py-3">
                   View Medical Records
                 </Button>
               </Link>
@@ -126,6 +165,36 @@ export default function TeleconsultationService() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Partner Hospitals */}
+        <div className="bg-gray-50 rounded-2xl p-8 mb-12">
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">Our Partner Healthcare Providers</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              "Baho International Hospital",
+              "Wiwo Specialized Hospital", 
+              "Legacy Clinic",
+              "Polyclinic de l'Étoile",
+              "DEV Medical Center",
+              "+ More Partner Clinics"
+            ].map((hospital, index) => (
+              <div key={index} className="bg-white p-4 rounded-lg shadow-sm text-center">
+                <h4 className="font-medium text-gray-900">{hospital}</h4>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* CTA Section */}
+        <div className="text-center bg-blue-600 text-white rounded-2xl p-12">
+          <h2 className="text-3xl font-bold mb-4">Ready to Start Your Consultation?</h2>
+          <p className="text-xl mb-8 opacity-90">Join thousands of Rwandans accessing quality healthcare from home</p>
+          <Link href="/teleconsultation/book">
+            <Button className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-3">
+              Book Consultation Now <Video className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
