@@ -1,8 +1,21 @@
+
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, Globe } from "lucide-react"
+import { Menu, Globe, User, LogOut } from "lucide-react"
+import { useAuth } from "@/contexts/AuthContext"
+import { useState } from "react"
 
 export default function Navbar() {
+  const { user, logout, isAuthenticated, loading } = useAuth()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const handleLogout = () => {
+    logout()
+    setIsMenuOpen(false)
+  }
+
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="container mx-auto px-4">
@@ -43,7 +56,37 @@ export default function Navbar() {
               <Globe className="mr-2 h-4 w-4 text-blue-600" />
               EN | KIN
             </Button>
-            <Button className="bg-green-600 hover:bg-green-700 hidden md:flex">Sign In</Button>
+
+            {!loading && (
+              <>
+                {isAuthenticated ? (
+                  <div className="hidden md:flex items-center space-x-2">
+                    <div className="flex items-center space-x-2 px-3 py-1 bg-green-50 rounded-md">
+                      <User className="h-4 w-4 text-green-600" />
+                      <span className="text-sm font-medium text-green-700">
+                        {user?.name}
+                      </span>
+                    </div>
+                    <Button
+                      onClick={handleLogout}
+                      variant="outline"
+                      size="sm"
+                      className="text-red-600 border-red-200 hover:bg-red-50"
+                    >
+                      <LogOut className="mr-2 h-4 w-4" />
+                      Logout
+                    </Button>
+                  </div>
+                ) : (
+                  <Link href="/auth">
+                    <Button className="bg-green-600 hover:bg-green-700 hidden md:flex">
+                      Sign In
+                    </Button>
+                  </Link>
+                )}
+              </>
+            )}
+
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="h-6 w-6" />
             </Button>
