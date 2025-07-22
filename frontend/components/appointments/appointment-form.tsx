@@ -197,7 +197,12 @@ export default function AppointmentForm() {
             </div>
 
             <div className="flex justify-end">
-              <Button className="bg-green-600 hover:bg-green-700 px-8">Confirm Appointment</Button>
+              <Button 
+                className="bg-green-600 hover:bg-green-700 px-8"
+                onClick={() => window.location.href = '/appointments/book'}
+              >
+                Book Appointment
+              </Button>
             </div>
           </div>
         </div>
